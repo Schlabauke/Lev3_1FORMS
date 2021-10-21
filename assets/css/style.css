@@ -1,0 +1,91 @@
+/* font-family: 'Didact Gothic', sans-serif;
+colors:#AB274F ,#EFDECD.#F19CBB*/
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+article {
+    border:2px solid #F19CBB;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 2px #AB274F;
+    width:35vw;
+    margin:1%;
+    padding:1%;
+}
+.header {
+    background-color: #AB274F;
+    color:#EFDECD;
+    text-align: center;
+    font-size: larger;
+    padding: 5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.field{
+    border:none;
+    color:#AB274F;
+    font-size: larger;
+    margin:5% 0;
+}
+.div{
+    color:#F19CBB;
+    background-color: #EFDECD;
+    padding:2%;
+}
+span{
+    display: inline;
+    background-color: #F19CBB;
+    color:#AB274F;
+    border-radius: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    margin-left: -30px;
+}
+input:focus{
+    outline-color: #AB274F;
+}
+input {
+    width: 15vw;
+}
+/* Abstände Input */
+article form fieldset:nth-of-type(1) div:nth-of-type(1) input{
+ margin-left: 8.5%;
+}
+article form fieldset:nth-of-type(1) div:nth-of-type(2) input{
+margin-left: 20%;
+}
+article form fieldset:nth-of-type(2) div:nth-of-type(1) input{
+    margin-left: 15.5%;
+}
+article form fieldset:nth-of-type(3) div:nth-of-type(1) input{
+    margin-left: 17%;
+}
+article form fieldset:nth-of-type(3) div:nth-of-type(2) input{
+    margin-left: 1.5%;
+}
+
+/* Checkbox & Button */
+ button {
+    margin-top: 3vh;
+    padding:1.5% 5%;
+    background-color: #AB274F;
+    color:#EFDECD;
+    border: 2px solid #F19CBB;
+}
+button:hover {
+    background-color: #EFDECD;
+    color:#AB274F;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    right:-50px;
+    width:10vw;
+}
+

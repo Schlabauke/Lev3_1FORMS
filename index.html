@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev3_1 Forms</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <article>
+        <div class="header">
+            <h1>SIGN UP NOW!</h1>
+            <p>May the odds be in your favour!</p>
+        </div>
+        <form>
+            <fieldset class="field">
+                <legend><span>1</span> Name & Adress</legend>
+                <div class="div">
+                    <label type="text" name="name">Your full Name</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="div">
+                    <label type="text" name="address">Address</label>
+                    <input type="text" name="adress">
+                </div>
+            </fieldset>
+            <fieldset class="field">
+                <legend><span>2</span> Email & Phone</legend>
+                <div class="div">
+                    <label type="text" name="email">Your Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="div">
+                    <label type="text" name="phone">Your Phonenumber</label>
+                    <input type="number" name="number">
+                </div>
+
+            </fieldset>
+            <fieldset class="field">
+                <legend><span>3</span> Passwords</legend>
+                <div class="div">
+                    <label type="text" name="password">Password</label>
+                    <input type="password" name="password" minlength="8">
+                </div>
+                <div class="div">
+                    <label type="text" name="password">Confirm Password</label>
+                    <input type="password" name="password" minlength="8">
+                </div>
+            </fieldset>        
+                <button type="submit">Send</button>
+                <input type="checkbox" name="checkbox">You agree to the Terms of Policy </input>
+            </form>
+    </article>
+</body>
+
+</html>
